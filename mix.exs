@@ -1,7 +1,7 @@
 defmodule JikanEx.MixProject do
   use Mix.Project
 
-  @github_url "https://github.com/seanbreckenridge/jikan_ex"
+  @github_url "https://github.com/purarue/jikan_ex"
   @description "A thin elixir wrapper for the Jikan API"
 
   def project do
@@ -41,7 +41,7 @@ defmodule JikanEx.MixProject do
 
   defp package do
     [
-      maintainers: ["Sean Breckenridge <seanbrecke@gmail.com>"],
+      maintainers: ["purarue"],
       files: ["lib", "LICENSE", "README.md", "mix.exs"],
       licenses: ["MIT"],
       links: %{"Github" => @github_url},
